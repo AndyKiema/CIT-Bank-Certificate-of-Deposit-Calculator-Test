@@ -4,6 +4,7 @@ public class writingtestcases {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		//Please take note that you are dealing with a functionality
 		/*Writing test scenarios and cases for Selenium functional test cases involves a structured approach to ensure clarity and coverage of the application being tested. Here's a detailed guide to writing test scenarios and test cases for the Certificate of Deposit Calculator page, as mentioned earlier:
 
 		1. Understand the Requirements

@@ -15,7 +15,7 @@ public class writingtestcases {
 		Error handling for invalid inputs.
 		
 		NOTES
-		Verify input fields	- if they only accept numerical values. Will i get an error message if i dont input numerical values?										
+		Verify input fields	- if they only accept numerical values. Will i get an error message if i dont input numerical values? Will I get an error message if I leave them empty?									
         Verify Cerificate of deposit amount	- come up with table of data								
         During the edge test case step, first get the cd value before inputing zero. Then compare it with the value you will get after inputing zero */						
 	}

@@ -19,7 +19,9 @@ public class writingtestcases {
         Verify Cerificate of deposit amount	- come up with table of data								
         During the edge test case step, first get the cd value before inputing zero. Then compare it with the value you will get after inputing zero 
 		Create two files of data, test data file and negative test data file	
-		Use ECP test design technique*/		
+		Use ECP test design technique
+		Create a new package for each test scenario and a new class for each test case			
+	    Create a properties file to hold the url of the webpage*/		
 	}
 
 }

@@ -1,6 +1,9 @@
 package tS_CIT_001;
 
+import java.io.FileInputStream;
+import java.io.IOException;
 import java.time.Duration;
+import java.util.Properties;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -8,11 +11,14 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class TC_CIT_Input_006 {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
 		ChromeDriver cd= new ChromeDriver();
 	    cd.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-	    cd.get("https://www.cit.com/cit-bank/resources/calculators/certificate-of-deposit-calculator");
+	    FileInputStream filepath=new FileInputStream(System.getProperty("user.dir")+"\\Data\\Properties");
+	    Properties prp= new Properties();
+	    prp.load(filepath);
+	    cd.get(prp.getProperty("url"));
 	    cd.manage().window().maximize();
 	    WebElement thirdinput=cd.findElement(By.xpath("//*[@id=\"mat-input-2\"]"));
 	    thirdinput.clear();

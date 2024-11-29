@@ -21,7 +21,11 @@ public class writingtestcases {
 		Create two files of data, test data file and negative test data file	
 		Use ECP test design technique
 		Create a new package for each test scenario and a new class for each test case			
-	    Create a properties file to hold the url of the webpage*/		
+	    Create a properties file to hold the url of the webpage
+	    Why Not Use the Same Website for Expected Results?								
+		Circular Dependency: If there is an issue or bug in the website's calculation logic, it will affect both your test data and the results. This makes it impossible to identify the error.								
+		Lack of Validation: Using the same system to produce both the actual and expected results doesn't validate whether the system works correctly; it only shows consistency.								
+		Add new test data file to eclipse*/		
 	}
 
 }

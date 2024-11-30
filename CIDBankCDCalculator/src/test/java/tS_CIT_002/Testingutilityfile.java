@@ -29,5 +29,31 @@ public class Testingutilityfile {
 		return rownum;
 		
 	}
+	
+	public static String getCellData(String testfilepath, String testsheet, int rownum, int cellnum) throws IOException {
+		fi=new FileInputStream(testfilepath);
+		wb= new XSSFWorkbook(fi);
+		st=wb.getSheet(testsheet);
+		rw=st.getRow(rownum);
+		cl=rw.getCell(cellnum);
+		String data=cl.toString();
+		wb.close();
+		fi.close();
+		return data;
+		
+	}
+	
+	public static void setCellData(String testfilepath, String testsheet, int rownum, int cellnum, String data) throws IOException {
+		fi= new FileInputStream(testfilepath);
+		wb=new XSSFWorkbook(fi);
+		st=wb.getSheet(testsheet);
+		rw=st.getRow(rownum);
+		cl=rw.getCell(cellnum);
+		cl.setCellValue(data);
+		fo= new FileOutputStream(testfilepath);
+		wb.write(fo);
+		wb.close();
+		fi.close();
+	}
 
 }

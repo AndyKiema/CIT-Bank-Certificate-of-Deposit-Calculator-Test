@@ -34,14 +34,18 @@ public class TC_CIT_CDAMT_001_7 {
 	        
 	    String reflectedcdamt=cd.findElement(By.xpath("//*[@id=\"displayTotalValue\"]")).getText();
 	    String expectedamt="$502,379.03";
+	    String correctamt="$488,341.43";
 	    System.out.println(reflectedcdamt);
 	    System.out.println(expectedamt);
 	    if(reflectedcdamt.equals(expectedamt)) {
-	       System.out.println("Test passed");
+		  System.out.println("Test passed");
 	    }
-	    else {
-	        System.out.println("Test failed");
-	    }
+		else if(reflectedcdamt.equals(correctamt)){
+	      System.out.println("Test failed, but correct amount displayed");
+		}
+		else {
+		  System.out.println("Test failed");
+		}
 	}
 
 }

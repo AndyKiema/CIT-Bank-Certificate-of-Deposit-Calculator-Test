@@ -6,7 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class TC_CIT_CDAMT_001_3 {
+public class TC_CIT_CDAMT_002_3 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -18,15 +18,15 @@ public class TC_CIT_CDAMT_001_3 {
 
 	    WebElement initialamount=cd.findElement(By.xpath("//*[@id=\"mat-input-0\"]"));
 	    initialamount.clear();
-	    initialamount.sendKeys("15500");
+	    initialamount.sendKeys("-15500");
 	        
 	    WebElement cdlength= cd.findElement(By.xpath("//*[@id=\"mat-input-1\"]"));
 	    cdlength.clear();
-	    cdlength.sendKeys("21");
+	    cdlength.sendKeys("-21");
 	       
 	    WebElement intrate= cd.findElement(By.xpath("//*[@id=\"mat-input-2\"]"));
 	    intrate.clear();
-	    intrate.sendKeys("34");
+	    intrate.sendKeys("-34");
 	        
 	    cd.findElement(By.xpath("//*[@id=\"mat-select-value-1\"]")).click();
 	    cd.findElement(By.xpath("//*[@id=\"mat-option-3\"]/span")).click();

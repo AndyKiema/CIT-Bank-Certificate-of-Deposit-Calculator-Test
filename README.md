@@ -11,6 +11,7 @@ This project tests the functionality of the **CIT Bank Certificate of Deposit (C
   - Compounding frequency (Daily, Monthly, Quarterly, Semi-Annually and Annually)
 - Input validation for:
   - Negative and zero values for principal, monthly period and interest rate
+  - Non-numeric data(Alphabetic and special characters)
 
 ## Bug Identified
 - **Issue with Semi-Annual Frequency**:

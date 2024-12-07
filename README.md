@@ -39,7 +39,7 @@ This project tests the functionality of the **CIT Bank Certificate of Deposit (C
 ## Known Bugs
 | Bug ID | Description                               | Status       |
 |--------|-------------------------------------------|--------------|
-| #001   | Incorrect amount calculation for semi-annual frequency | Open         |
+| #001   | Incorrect amount displayed for semi-annual frequency calculation | Open         |
 
 ## Contributing
 Contributions to enhance testing coverage or fix identified issues are welcome. To contribute:

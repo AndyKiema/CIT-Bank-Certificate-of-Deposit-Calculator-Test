@@ -27,11 +27,9 @@ This project tests the functionality of the **CIT Bank Certificate of Deposit (C
    ```
 2. **Navigate to the Project Directory:**
    ```bash
-   cd CIT-Bank-Certificate-of-Deposit-Calculator-Test
+   cd C:\Projectpath
    ```
 3. **Run the Tests:**
-   - If automated tests are included, use the provided test runner (e.g., JUnit, TestNG, etc.).
-   - For manual tests, execute the steps detailed in the `TestCase_Documentation` file.
 
 ## Project Structure
 - **/test-cases:** Contains detailed test cases and expected outcomes.

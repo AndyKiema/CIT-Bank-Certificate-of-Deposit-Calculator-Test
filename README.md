@@ -29,7 +29,7 @@ This project tests the functionality of the **CIT Bank Certificate of Deposit (C
    ```bash
    cd C:\Projectpath
    ```
-3. **Run the Tests:**
+3. **Run the Tests**
 
 ## Project Structure
 - **/test-cases:** Contains detailed test cases and expected outcomes.

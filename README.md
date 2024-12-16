@@ -19,6 +19,7 @@ This project tests the functionality of the **CIT Bank Certificate of Deposit (C
 
 ## Technologies Used
 - **Selenium with Java** for test script development.
+- **Eclipse IDE** programming software
 
 ## How to Run Tests
 1. **Clone the Repository:**

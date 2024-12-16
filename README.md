@@ -15,7 +15,7 @@ This project tests the functionality of the **CIT Bank Certificate of Deposit (C
 
 ## Bug Identified
 - **Issue with Semi-Annual Frequency**:
-  The calculator displays an incorrect amount for semi-annual compounding. This issue has been logged for further investigation.
+  The calculator displays an incorrect amount when compounding semi-annually. This issue has been logged for further investigation.
 
 ## Technologies Used
 - **Selenium with Java** for test script development.

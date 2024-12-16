@@ -31,11 +31,6 @@ This project tests the functionality of the **CIT Bank Certificate of Deposit (C
    ```
 3. **Run the Tests**
 
-## Project Structure
-- **/test-cases:** Contains detailed test cases and expected outcomes.
-- **/results:** Stores test execution results and identified bugs.
-- **README.md:** Documentation for the project.
-
 ## Known Bugs
 | Bug ID | Description                               | Status       |
 |--------|-------------------------------------------|--------------|

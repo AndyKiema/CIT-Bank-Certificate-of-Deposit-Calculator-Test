@@ -2,6 +2,7 @@
 
 ## Overview
 This project tests the functionality of the **CIT Bank Certificate of Deposit (CD) Calculator** to ensure it accurately calculates the final amount based on user inputs.
+The calculator can be found here: https://www.cit.com/cit-bank/resources/calculators/certificate-of-deposit-calculator
 
 ## Features Tested
 - Calculation of final amount based on:

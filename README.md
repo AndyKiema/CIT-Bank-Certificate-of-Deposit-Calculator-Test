@@ -14,9 +14,9 @@ The calculator can be found here: https://www.cit.com/cit-bank/resources/calcula
   - Negative and zero values for principal, monthly period and interest rate
   - Non-numeric data(Alphabetic and special characters)
 
-## Formula Used in the Certificate of Deposit (CD) Calculator Test
+## Formula Used 
 
-The Certificate of Deposit (CD) Calculator test relies on the following formula to calculate the maturity amount:
+The calculator test relies on the following formula to calculate the maturity amount:
 
 A = P * (1 + (r / n)) ^ (n * t)
 
@@ -26,6 +26,13 @@ A = P * (1 + (r / n)) ^ (n * t)
 - **r** = Annual interest rate
 - **n** = Number of compounding periods per year
 - **t** = Time the money is deposited for, in months
+
+**The number of compounding periods(n) for each compounding frequency is as follows:**
+- **Daily** = 365
+- **Monthly** = 12
+- **Quarterly** = 4
+- **Semi-Annually** = 2
+- **Annually** = 1
 
 
 ## Bug Identified

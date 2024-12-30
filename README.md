@@ -33,11 +33,6 @@ The calculator can be found here: https://www.cit.com/cit-bank/resources/calcula
    ```
 3. **Run the Tests**
 
-## Known Bugs
-| Bug ID | Description                               | Status       |
-|--------|-------------------------------------------|--------------|
-| #001   | Incorrect amount displayed for semi-annual frequency calculation | Open         |
-
 ## Contributing
 Contributions to enhance testing coverage or fix identified issues are welcome. To contribute:
 1. Fork the repository.

@@ -18,7 +18,7 @@ The calculator can be found here: https://www.cit.com/cit-bank/resources/calcula
 
 The calculator test relies on the following formula to calculate the maturity amount:
 
-A = P * (1 + (r / n)) ^ (n * t)
+A = P * (1 + (r / n)) ^ (n * t/12)
 
 **Where:**
 - **A** = The maturity amount (final amount after interest)
